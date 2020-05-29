@@ -1268,10 +1268,6 @@
     line-height: 14px;
 }
 
-.home-product-item__brand {}
-
-.home-product-item__origin-name {}
-
 .home-product-item__favourite {
     position: absolute;
     top: 10px;
@@ -1335,26 +1331,29 @@
     border-width: 0 19px 4px;
 }
 
-
-}
 .home-product-item__sale-off-percent {
     margin-top: 4px;
     color: #d0011b;
 }
+
 .home-product-item__sale-off-laybel {
     color: var(--white-color);
 }
+
 .home-product__pagination {
     margin-top: 48px;
     margin-bottom: 32px;
     padding-left: 0;
 }
 
+
 /* Footer */
+
 .footer {
     border-top: 4px solid var(--primary-color);
     padding-top: 16px;
 }
+
 .footer__heading {
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -1362,10 +1361,12 @@
     font-weight: 700;
     cursor: default;
 }
+
 .footer-list {
     padding-left: 0;
     list-style: none;
 }
+
 .footer-item__link {
     text-decoration: none;
     font-size: 1.2rem;
@@ -1374,65 +1375,79 @@
     display: block;
     font-weight: 400;
 }
+
 .footer-item__link:hover {
     color: #ee4d2d;
 }
-.footer-img {}
+
 .footer-list-img .footer-item-img {
     display: inline-flex;
     flex-wrap: wrap;
     padding-left: 0;
 }
+
 .footer-list-img {
     margin: 0 20px 0 0;
     padding: 0;
 }
+
 .footer-img-visa {
     background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/a45ad735d1849e011209e588977d9d6d.png);
     background-position: 65.7331136738056% 36.12903225806452%;
 }
+
 .footer-img-master {
     background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/a45ad735d1849e011209e588977d9d6d.png);
     background-position: 53.37726523887974% 62.58064516129032%;
 }
+
 .footer-img-AirPay {
     background-image: url(data:image/png;base64,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);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top center;
 }
+
 .footer-img-cod {
     background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/a45ad735d1849e011209e588977d9d6d.png);
     background-position: 19.934640522875817% 65.16129032258064%;
 }
+
 .footer-img-installment {
     background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/a45ad735d1849e011209e588977d9d6d.png);
     background-position: 65.7331136738056% 67.74193548387096%;
 }
+
 .footer-img-vtpost {
     background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/a45ad735d1849e011209e588977d9d6d.png);
     background-position: 24.71169686985173% 6.024096385542169%;
 }
+
 .footer-img-ghn {
     background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/a45ad735d1849e011209e588977d9d6d.png);
     background-position: 20.098846787479406% 33.54838709677419%;
 }
+
 .footer-img-vnpost {
     background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/a45ad735d1849e011209e588977d9d6d.png);
     background-position: 37.067545304777596% 6.024096385542169%;
 }
+
 .footer-item-icon {
     margin-right: 10px;
     font-size: 16px;
 }
+
 .footer__download {
     display: flex;
 }
+
 .footer__download-qr {
     width: 80px;
     height: 80px;
     border: 1px solid var(--border-color);
 }
+
 .footer__download-apps {
     flex: 1;
     margin-left: 16px;
@@ -1440,29 +1455,35 @@
     flex-direction: column;
     justify-content: center;
 }
+
 .footer__download-app-img {
     height: 20px;
 }
+
 .footer__download-app-link {
     text-decoration: none;
 }
 
+
 /* footer_bottom */
+
 .footer__bottom {
     background-color: #f5f5f5;
     min-height: 150px;
     padding-top: 42px;
 }
+
 .footer__bottom-first {
     display: flex;
     justify-content: space-around;
 }
-.footer__bottom-text {}
-.footer__bottom-link {
+
+s .footer__bottom-link {
     text-decoration: none;
     font-size: 1.4rem;
     color: #959595;
 }
+
 .footer__bottom-last {
     display: block;
     text-align: center;
